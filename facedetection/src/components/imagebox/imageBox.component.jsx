@@ -6,8 +6,8 @@ const ImageBox =({imageUrl,box })=>{
     return(
         <div className='center ma'>
             <div className='absolute mt2'>
-            <img id='inimage' alt="" src={imageUrl} width='500px' height='auto'/></div>
-            <div className='bounding-box' style={{top: box.topRow, right: box.rightCol, bottom: box.bottomRow, left: box.leftCol}}></div>
+            <img id='inimage' alt="" src={imageUrl} width='500px' height='auto'/>
+            <div className='bounding-box' style={{left: box.leftCol, top:box.topRow , right: box.rightRow, bottom:box.dottomRow}}></div></div>
         </div>
     );
 }
